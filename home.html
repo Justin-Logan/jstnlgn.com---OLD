@@ -1,75 +1,51 @@
 <!DOCTYPE html>
-
 <html lang="en">
-    <head>
-        <title>JSTN LGN</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!-- CSS Link-->
-        <link href="css/rem.css" rel="stylesheet">
-        <!-- Script Links-->
-        <script type="text/javascript">document.documentElement.className = "js"</script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-        <!-- Bootstrap Link-->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"> </script>
-        <!-- Font Links-->
-        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Andika:wght@700&family=Chakra+Petch:ital,wght@1,700&display=swap" rel="stylesheet">
-        <style> @import url('https://fonts.googleapis.com/css2?family=Andika:wght@700&family=Chakra+Petch:ital,wght@1,700&display=swap'); </style>
-        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Unbounded&display=swap" rel="stylesheet">
-        <style> @import url('https://fonts.googleapis.com/css2?family=Unbounded&display=swap'); </style>
-        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap" rel="stylesheet">
-        <style> @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap'); </style>
-        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,900&display=swap" rel="stylesheet">
-        <style> @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,900&display=swap'); </style>
-    </head>
+<head>
+    <meta charset="UTF-8">
+        <meta name="description" content="Hey, I'm Justin! This is my personal site that should give you an idea of who I am and what my hobbies are!">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - JSTN LGN</title>
+    <link rel="stylesheet" href="css/styles.css"><link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Andika:ital@1&display=swap" rel="stylesheet">
+</head>
+<body>
 
-
-    <body>
-        <header>
-            <h1 class="title text-center">JSTN LGN</h1>
-                <nav class="nav justify-content-center">
-                    <a class="link p-2" href="home">Home</a>
-                    <a class="link p-2" href="photos">Photos</a>
-                    <a class="link active p-2" aria-current="page" href="video">Video</a>
-                    <a class="link p-2"href="links">Links</a>
-                </nav>
-        </header>
-
-        <main class="flex-container main">
-            <div class="welcome">
-                <h1 class="welcomeText">Welcome to my site!</h1>
-
-                <div class="welcomeButton">
-                    <div class="row">
-                        <div class="col" align="center">
-                            <div class="box">
-                                <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#titleModal">
-                                    <p class="click">Click Here!</p>
-                                </button>
-                                <div class="modal fade" id="titleModal" tabindex="-1" arialabelledby="titleModalLabel" aria-hidden="true">
-                                    <div class="modal-dialog">
-                                        <div class="modal-content">
-                                            <div class="modal-header">
-                                                <h5 class="modal-title" id="titleModalLabel">JSTN LGN</h5>
-                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                            </div>
-                                            <div class="modal-body">
-                                                <p>This is very much a work-in-progress!</p>
-                                            </div>
-                                            <div class="modal-footer">
-                                                <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Close</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
+    <header>
+        <h1 id="title">JSTN LGN</h1>
+        <div class="nav">
+            <div class="nav-background">
+                <p class="nav-link-home"><a href="home">Home</a></p>
+                <p class="nav-link-photos"><a href="photos">Photos</a></p>
+                <!--<p class="nave-link-page3"><a href="">Page 3</a></p>-->
             </div>
-        </main>
+        </div>
+    </header>
 
-        <script>$("body").fadeIn("slow");</script>
-    </body>
+    <main>
+        <div class="pageContainer">
+            <h1>Home</h1>
+            <hr><br><br>
+            <p>
+                Hey, My name is Justin. Welcome to my site!<br>
+                It's a work in progress so it'll change often.<br><br>
+                
+                Pictures: Here you can find a ton of photos that I've taken, screenshots, pics of my pets and more.<br><br>
+
+                There'll be more tabs in the future.<br><br>
+
+                I'm working on adding a tab for my Steam profile, MyAnimeList & possibly Spotify.<br>
+                I hope to use their APIs to add some functionality...we'll see how it goes.<br><br>
+                
+                Thanks for visiting!<br>
+                All the best!,<br>
+                Justin
+            </p>
+        </div>
+    </main>
+    <footer>
+        <h2 id="copr">Copyright © 2022-2023 Justin Logan</h2>
+    </footer>
+</body>
 </html>
